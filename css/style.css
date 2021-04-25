@@ -1,0 +1,90 @@
+body{
+  text-align:center; /*alinhamento do texto*/
+  font-family:Open Sans, sans-serif; /*escolher sempre uma fonte principal e outra secundária*/
+  background-color:#8A71C9;
+  color:#ffffff;
+  margin:0px 0px 30px 0px; /*ajuda a alinhar o texto na página inteira*/
+}
+
+h1{
+  font-size:60px; /*geralmente a eqp de design passa o valor*/
+  font-weight:300;
+}
+
+h2{
+  color:#2A0074;
+  font-size:40px;
+}
+
+h3{
+  font-size:22px;
+  font-style:italic;
+}
+
+.titulo-verde{
+  color:#04ff9f;
+}
+
+.titulo-vermelho{
+  color:#FF9E9E;
+}
+
+.titulo-amarelo{
+  color:#ffe36d;
+}
+
+p{
+  font-size:20px;
+  line-height:1,5;
+}
+
+img{
+  width:100%; /*posso fazer por px, mas demora muito para acertar*/
+}
+
+section{
+  width:60%;
+  margin: 0% auto; /*com 4 valores fica cima direita baixo esquerda, mas posso colocar 2 para cima-baixo esq-dir ou 1 se for tudo igual*/
+}
+
+section section{
+  width: 100%
+}
+
+ul{
+  list-style-type:none;
+  line-height:2;
+  padding-left:0;
+}
+
+a{
+  text-decoration-line:none;
+  color:#99ffff;
+  font-weight:700;
+}
+
+.principal{
+  background-color:#FF6CB5;
+  height: 40px;
+  max-width:60%;
+  margin: 0 auto;
+}
+
+.principal li {
+  display: inline-block;
+  line-height:2.5;
+  margin: 0px 89px;
+}
+
+.principal a{
+  color: #FFF;
+  font-weight: normal;
+  text-decoration-line:underline;
+}
+
+button{
+  background-color: #41f341;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+}
